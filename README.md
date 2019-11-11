@@ -1,1 +1,3 @@
-competitive-programming
+# competitive-programming
+
+This is a collection of solutions to problems from [Kattis](https://open.kattis.com) that I do in my free time. 
