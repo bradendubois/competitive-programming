@@ -1,6 +1,7 @@
 # Primary Register
 
 **Problem**: [register](https://open.kattis.com/problems/register)
+
 **Difficulty**: 2.0
 
 ## Solution
