@@ -11,6 +11,8 @@ This is a collection of solutions to problems from [Kattis](https://open.kattis.
 
 - [fizzbuzz](https://www.github.com/bradendubois/competitive-programming/tree/master/fizzbuzz)
 
+- [aboveaverage](https://www.github.com/bradendubois/competitive-programming/tree/master/aboveaverage)
+
 - [babybites](https://www.github.com/bradendubois/competitive-programming/tree/master/babybites)
 
 - [autori](https://www.github.com/bradendubois/competitive-programming/tree/master/autori)
