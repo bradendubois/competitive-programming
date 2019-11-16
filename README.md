@@ -13,6 +13,8 @@ This is a collection of solutions to problems from [Kattis](https://open.kattis.
 
 - [armystrengthhard](https://www.github.com/bradendubois/competitive-programming/tree/master/armystrengthhard)
 
+- [aprizenoonecanwin](https://www.github.com/bradendubois/competitive-programming/tree/master/aprizenoonecanwin)
+
 - [aboveaverage](https://www.github.com/bradendubois/competitive-programming/tree/master/aboveaverage)
 
 - [babybites](https://www.github.com/bradendubois/competitive-programming/tree/master/babybites)
