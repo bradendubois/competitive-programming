@@ -5,6 +5,8 @@ This is a collection of solutions to problems from [Kattis](https://open.kattis.
 ## Problems Completed
 - [chanukah](https://www.github.com/bradendubois/competitive-programming/tree/master/chanukah)
 
+- [fantasydraft](https://www.github.com/bradendubois/competitive-programming/tree/master/fantasydraft)
+
 - [register](https://www.github.com/bradendubois/competitive-programming/tree/master/register)
 
 - [islands3](https://www.github.com/bradendubois/competitive-programming/tree/master/islands3)
