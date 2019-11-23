@@ -3,9 +3,7 @@
 This is a collection of solutions to problems from [Kattis](https://open.kattis.com) that I do in my free time.
 
 ## Problems Completed
-- [chanukah](https://www.github.com/bradendubois/competitive-programming/tree/master/chanukah)
-
-- [fantasydraft](https://www.github.com/bradendubois/competitive-programming/tree/master/fantasydraft)
+- [aboveaverage](https://www.github.com/bradendubois/competitive-programming/tree/master/aboveaverage)
 
 - [register](https://www.github.com/bradendubois/competitive-programming/tree/master/register)
 
@@ -13,15 +11,21 @@ This is a collection of solutions to problems from [Kattis](https://open.kattis.
 
 - [fizzbuzz](https://www.github.com/bradendubois/competitive-programming/tree/master/fizzbuzz)
 
-- [armystrengthhard](https://www.github.com/bradendubois/competitive-programming/tree/master/armystrengthhard)
+- [dirtydriving](https://www.github.com/bradendubois/competitive-programming/tree/master/dirtydriving)
 
-- [aprizenoonecanwin](https://www.github.com/bradendubois/competitive-programming/tree/master/aprizenoonecanwin)
+- [thecolonizationofelgarizm](https://www.github.com/bradendubois/competitive-programming/tree/master/thecolonizationofelgarizm)
 
-- [aboveaverage](https://www.github.com/bradendubois/competitive-programming/tree/master/aboveaverage)
+- [autori](https://www.github.com/bradendubois/competitive-programming/tree/master/autori)
+
+- [chanukah](https://www.github.com/bradendubois/competitive-programming/tree/master/chanukah)
+
+- [fantasydraft](https://www.github.com/bradendubois/competitive-programming/tree/master/fantasydraft)
 
 - [babybites](https://www.github.com/bradendubois/competitive-programming/tree/master/babybites)
 
-- [autori](https://www.github.com/bradendubois/competitive-programming/tree/master/autori)
+- [aprizenoonecanwin](https://www.github.com/bradendubois/competitive-programming/tree/master/aprizenoonecanwin)
+
+- [armystrengthhard](https://www.github.com/bradendubois/competitive-programming/tree/master/armystrengthhard)
 
 
 
