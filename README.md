@@ -3,6 +3,8 @@
 This is a collection of solutions to problems from [Kattis](https://open.kattis.com) that I do in my free time.
 
 ## Problems Completed
+- [quadrant](https://www.github.com/bradendubois/competitive-programming/tree/master/quadrant)
+
 - [aboveaverage](https://www.github.com/bradendubois/competitive-programming/tree/master/aboveaverage)
 
 - [register](https://www.github.com/bradendubois/competitive-programming/tree/master/register)
@@ -14,6 +16,14 @@ This is a collection of solutions to problems from [Kattis](https://open.kattis.
 - [dirtydriving](https://www.github.com/bradendubois/competitive-programming/tree/master/dirtydriving)
 
 - [thecolonizationofelgarizm](https://www.github.com/bradendubois/competitive-programming/tree/master/thecolonizationofelgarizm)
+
+- [r2](https://www.github.com/bradendubois/competitive-programming/tree/master/r2)
+
+- [twostones](https://www.github.com/bradendubois/competitive-programming/tree/master/twostones)
+
+- [tarifa](https://www.github.com/bradendubois/competitive-programming/tree/master/tarifa)
+
+- [hello](https://www.github.com/bradendubois/competitive-programming/tree/master/hello)
 
 - [autori](https://www.github.com/bradendubois/competitive-programming/tree/master/autori)
 
