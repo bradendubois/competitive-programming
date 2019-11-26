@@ -3,39 +3,87 @@
 This is a collection of solutions to problems from [Kattis](https://open.kattis.com) that I do in my free time.
 
 ## Problems Completed
-- [quadrant](https://www.github.com/bradendubois/competitive-programming/tree/master/quadrant)
-
-- [aboveaverage](https://www.github.com/bradendubois/competitive-programming/tree/master/aboveaverage)
-
-- [register](https://www.github.com/bradendubois/competitive-programming/tree/master/register)
-
-- [islands3](https://www.github.com/bradendubois/competitive-programming/tree/master/islands3)
-
-- [fizzbuzz](https://www.github.com/bradendubois/competitive-programming/tree/master/fizzbuzz)
-
-- [dirtydriving](https://www.github.com/bradendubois/competitive-programming/tree/master/dirtydriving)
-
-- [thecolonizationofelgarizm](https://www.github.com/bradendubois/competitive-programming/tree/master/thecolonizationofelgarizm)
+- [sibice](https://www.github.com/bradendubois/competitive-programming/tree/master/sibice)
 
 - [r2](https://www.github.com/bradendubois/competitive-programming/tree/master/r2)
 
-- [twostones](https://www.github.com/bradendubois/competitive-programming/tree/master/twostones)
+- [everywhere](https://www.github.com/bradendubois/competitive-programming/tree/master/everywhere)
 
-- [tarifa](https://www.github.com/bradendubois/competitive-programming/tree/master/tarifa)
+- [bijele](https://www.github.com/bradendubois/competitive-programming/tree/master/bijele)
 
-- [hello](https://www.github.com/bradendubois/competitive-programming/tree/master/hello)
-
-- [autori](https://www.github.com/bradendubois/competitive-programming/tree/master/autori)
+- [datum](https://www.github.com/bradendubois/competitive-programming/tree/master/datum)
 
 - [chanukah](https://www.github.com/bradendubois/competitive-programming/tree/master/chanukah)
 
 - [fantasydraft](https://www.github.com/bradendubois/competitive-programming/tree/master/fantasydraft)
 
-- [babybites](https://www.github.com/bradendubois/competitive-programming/tree/master/babybites)
+- [faktor](https://www.github.com/bradendubois/competitive-programming/tree/master/faktor)
+
+- [conundrum](https://www.github.com/bradendubois/competitive-programming/tree/master/conundrum)
+
+- [grassseed](https://www.github.com/bradendubois/competitive-programming/tree/master/grassseed)
+
+- [register](https://www.github.com/bradendubois/competitive-programming/tree/master/register)
+
+- [alphabetspam](https://www.github.com/bradendubois/competitive-programming/tree/master/alphabetspam)
+
+- [islands3](https://www.github.com/bradendubois/competitive-programming/tree/master/islands3)
+
+- [planina](https://www.github.com/bradendubois/competitive-programming/tree/master/planina)
+
+- [quadrant](https://www.github.com/bradendubois/competitive-programming/tree/master/quadrant)
+
+- [cold](https://www.github.com/bradendubois/competitive-programming/tree/master/cold)
+
+- [thecolonizationofelgarizm](https://www.github.com/bradendubois/competitive-programming/tree/master/thecolonizationofelgarizm)
+
+- [fizzbuzz](https://www.github.com/bradendubois/competitive-programming/tree/master/fizzbuzz)
+
+- [armystrengthhard](https://www.github.com/bradendubois/competitive-programming/tree/master/armystrengthhard)
+
+- [twostones](https://www.github.com/bradendubois/competitive-programming/tree/master/twostones)
+
+- [detaileddifferences](https://www.github.com/bradendubois/competitive-programming/tree/master/detaileddifferences)
 
 - [aprizenoonecanwin](https://www.github.com/bradendubois/competitive-programming/tree/master/aprizenoonecanwin)
 
-- [armystrengthhard](https://www.github.com/bradendubois/competitive-programming/tree/master/armystrengthhard)
+- [carrots](https://www.github.com/bradendubois/competitive-programming/tree/master/carrots)
+
+- [pot](https://www.github.com/bradendubois/competitive-programming/tree/master/pot)
+
+- [aboveaverage](https://www.github.com/bradendubois/competitive-programming/tree/master/aboveaverage)
+
+- [cetvrta](https://www.github.com/bradendubois/competitive-programming/tree/master/cetvrta)
+
+- [hissingmicrophone](https://www.github.com/bradendubois/competitive-programming/tree/master/hissingmicrophone)
+
+- [timeloop](https://www.github.com/bradendubois/competitive-programming/tree/master/timeloop)
+
+- [babybites](https://www.github.com/bradendubois/competitive-programming/tree/master/babybites)
+
+- [pieceofcake2](https://www.github.com/bradendubois/competitive-programming/tree/master/pieceofcake2)
+
+- [hello](https://www.github.com/bradendubois/competitive-programming/tree/master/hello)
+
+- [bela](https://www.github.com/bradendubois/competitive-programming/tree/master/bela)
+
+- [dasblinkenlights](https://www.github.com/bradendubois/competitive-programming/tree/master/dasblinkenlights)
+
+- [onechicken](https://www.github.com/bradendubois/competitive-programming/tree/master/onechicken)
+
+- [autori](https://www.github.com/bradendubois/competitive-programming/tree/master/autori)
+
+- [apaxiaaans](https://www.github.com/bradendubois/competitive-programming/tree/master/apaxiaaans)
+
+- [zamka](https://www.github.com/bradendubois/competitive-programming/tree/master/zamka)
+
+- [batterup](https://www.github.com/bradendubois/competitive-programming/tree/master/batterup)
+
+- [qaly](https://www.github.com/bradendubois/competitive-programming/tree/master/qaly)
+
+- [dirtydriving](https://www.github.com/bradendubois/competitive-programming/tree/master/dirtydriving)
+
+- [tarifa](https://www.github.com/bradendubois/competitive-programming/tree/master/tarifa)
 
 
 
