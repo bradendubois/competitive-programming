@@ -14,8 +14,8 @@ int main() {
         
         cin >> v >> theta >> x >> h1 >> h2;
         
-        t = x / (v * cos(theta));
-        result = (v * t * sin(theta)) - (0.5 * 9.81 * (t * t));
+        t = x / (v * cos((M_PI / 180) * theta));
+        result = (v * t * sin((M_PI / 180) * theta)) - (0.5 * 9.81 * (t * t));
 
         if ((result - 1 > h1) && (result + 1 < h2))
             cout << "Safe" << endl;
