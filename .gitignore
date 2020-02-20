@@ -1,9 +1,0 @@
-.idea/
-*/cmake-build-debug/
-*/CMakeFiles/
-register-not-solved/CMakeCache.txt
-
-*.out
-
-.vscode/
-.*
