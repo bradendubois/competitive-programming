@@ -12,6 +12,8 @@ struct song {
 };
 
 bool compareSong(song a, song b) {
+    if (isdigit(a.selected[0]))
+        return stoi(a.attribs[a.selected]) < stoi(b.attribs[b.selected]);
     return a.attribs[a.selected] < b.attribs[b.selected];
 }
 
@@ -46,11 +48,14 @@ int main() {
 
     while (n--) {
         getline(cin, line);
-        for (auto song : songs) {
+        for (auto & song : songs) {
             song.selected=line;
         }
 
         sort(songs.begin(), songs.end(), compareSong);
+        for (auto attrib: attribs)
+            cout << attrib << " ";
+        cout << endl;
         for (auto song : songs) {
             for (auto attrib: attribs)
                 cout << song.attribs[attrib] << " ";
