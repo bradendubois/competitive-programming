@@ -2,7 +2,7 @@
 
 This is a collection of solutions to problems from [Kattis](https://open.kattis.com) that I do in my free time.
 
-**Total Solutions**:  224
+**Total Solutions**:  235
 
 ## Competitive Programming
 
@@ -81,7 +81,7 @@ Followed the ICPC ruleset, but done with teams working remotely. You can view th
 
 ### 2020 - Winter (Locals)
 
-A semi-official (U of S coordinated, but not actually an ICPC-related) contests.
+A semi-official (U of S coordinated, but not actually an ICPC-related) contest.
 
 -  **Character Development**: [character](https://open.kattis.com/problems/character)
 - **IsItHalloween.com**: [isithalloween](https://open.kattis.com/problems/isithalloween)
