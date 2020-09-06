@@ -2,7 +2,7 @@
 
 This is a collection of solutions to problems from [Kattis](https://open.kattis.com) that I do in my free time.
 
-**Total Solutions**:  247
+**Total Solutions**:  273
 
 ## Competitive Programming
 
