@@ -9,7 +9,7 @@ wiki.mkdir(mode=0o777, exist_ok=True)
 all_data = []
 
 problems = list(filter(lambda x: x.is_dir() and not x.name.startswith(".") and x != wiki, p.iterdir()))
-
+problems = problems[:5]
 for directory in problems:
 
     readme = directory / "README.md"
@@ -43,6 +43,8 @@ with home.open("w") as f:
 
     f.write("# Home\n\n")
     f.write("This wiki is automatically generated / updated when new solutions are added.\n\n")
+    f.write("Total Solutions: {}\n\n".format(len(all_data)))
+    f.write("Total Score: {}\n\n".format(sum(map(lambda x: float(x['difficulty']), all_data))))
     f.write("## Problems Solved\n\n")
 
     all_data.sort(key=lambda x: x['id'])
