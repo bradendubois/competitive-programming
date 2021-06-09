@@ -5,6 +5,9 @@ p = Path(".")
 wiki = p / "wiki"
 wiki.mkdir(mode=0o777, exist_ok=True)
 
+# Need Home file
+(wiki / "Home.md").write_text("# Home")
+
 languages = []
 solutions = []
 
