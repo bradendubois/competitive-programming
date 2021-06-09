@@ -44,7 +44,8 @@ with home.open("w") as f:
     f.write("# Home\n\n")
     f.write("This wiki is automatically generated / updated when new solutions are added.\n\n")
     f.write("Total Solutions: {}\n\n".format(len(all_data)))
-    f.write("Total Score: {}\n\n".format(sum(map(lambda x: float(x['difficulty']), all_data))))
+    score = sum(map(lambda x: float(x['difficulty']) if "-" not in x['difficulty'] else float(x['difficulty'].split("-")[0]), all_data))
+    f.write("Total Score: {}\n\n".format(score))
     f.write("## Problems Solved\n\n")
 
     all_data.sort(key=lambda x: x['id'])
