@@ -18,7 +18,6 @@ for directory in problems:
         contents = f.read().strip()
 
     data = parse_soup(get_soup(directory.name))
-    data = dict()
     data['id'] = directory.name
 
     for file in directory.iterdir():
