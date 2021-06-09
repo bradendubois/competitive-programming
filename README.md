@@ -2,7 +2,7 @@
 
 This is a collection of solutions to problems from [Kattis](https://open.kattis.com) that I do in my free time.
 
-**Total Solutions**:  273
+See the [Wiki](https://github.com/bradendubois/competitive-programming/wiki) for more detailed solutions.
 
 ## Competitive Programming
 
@@ -99,4 +99,3 @@ A semi-official (U of S coordinated, but not actually an ICPC-related) contest.
 
 
 <hr />
-

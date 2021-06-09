@@ -9,7 +9,7 @@ wiki.mkdir(mode=0o777, exist_ok=True)
 all_data = []
 
 problems = list(filter(lambda x: x.is_dir() and not x.name.startswith(".") and x != wiki, p.iterdir()))
-problems = problems[:5]
+
 for directory in problems:
 
     readme = directory / "README.md"
