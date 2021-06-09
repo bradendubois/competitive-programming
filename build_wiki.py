@@ -18,11 +18,14 @@ for directory in problems:
         contents = f.read().strip()
 
     data = parse_soup(get_soup(directory.name))
+    data = dict()
     data['id'] = directory.name
 
     for file in directory.iterdir():
-        if file.is_file() and file.name == directory.name:
+        if file.is_file() and file.stem == directory.name:
             data['solution'] = file.suffix
+
+    assert 'solution' in data, directory.name
 
     all_data.append(data)
     full_contents = f"# {data['title']}\n\nID: {directory.name}\n\nDifficulty: {data['difficulty']}\n\nCPU Time: {data['cpu']}\n\nMemory: {data['memory']}\n\n## Solution\n\n{contents}"
