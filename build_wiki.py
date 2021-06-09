@@ -20,6 +20,10 @@ for directory in problems:
     data = parse_soup(get_soup(directory.name))
     data['id'] = directory.name
 
+    for file in directory.iterdir():
+        if file.is_file() and file.name == directory.name:
+            data['solution'] = file.suffix
+
     all_data.append(data)
     full_contents = f"# {data['title']}\n\nID: {directory.name}\n\nDifficulty: {data['difficulty']}\n\nCPU Time: {data['cpu']}\n\nMemory: {data['memory']}\n\n## Solution\n\n{contents}"
 
@@ -29,8 +33,8 @@ for directory in problems:
     print(page.resolve(), page.owner())
     page.write_text(full_contents)
 
+base = "https://github.com/bradendubois/competitive-programming/blob/master/"
 
-# Need Home file
 home = (wiki / "Home.md")
 
 with home.open("w") as f:
@@ -41,8 +45,9 @@ with home.open("w") as f:
 
     all_data.sort(key=lambda x: x['id'])
 
-    f.write("| Name | ID | Difficulty | CPU Time | Memory Limit |\n")
-    f.write("| :-: | :-: | :-: | :-: | :-: |\n")
+    f.write("| Name | ID | Difficulty | CPU Time | Memory Limit | Solution |\n")
+    f.write("| :-: | :-: | :-: | :-: | :-: | :-: |\n")
     for entry in all_data:
+        solution = base + "/{}/{}/{}".format(entry['id'], entry['id'], entry['solution'])
         link = '[{}](https://open.kattis.com/problems/{})'.format(entry['title'], entry['id'])
-        f.write("| {} | {} | {} | {} | {} |\n".format(link, entry['id'], entry['difficulty'], entry['cpu'], entry['memory']))
+        f.write("| {} | {} | {} | {} | {} |\n".format(link, entry['id'], entry['difficulty'], entry['cpu'], entry['memory'], solution))
