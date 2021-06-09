@@ -1,9 +1,9 @@
 from pathlib import Path
 
 p = Path(".")
-p.mkdir("wiki_directory")
+p.mkdir("wiki")
 
-wiki = p / "wiki_directory"
+wiki = p / "wiki"
 
 languages = []
 solutions = []
