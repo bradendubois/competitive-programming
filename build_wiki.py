@@ -19,7 +19,7 @@ for directory in filter(lambda x: x.is_dir() and not x.name.startswith(".") and 
     with readme.open("r") as f:
         contents = f.read().strip()
 
-    data = parse_soup(get_soup(directory))
+    data = parse_soup(get_soup(directory.name))
 
     full_contents = f"\
         # {data['title']}\n\
