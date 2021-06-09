@@ -4,6 +4,6 @@
 
 **Difficulty**: 1.3
 
-# Solution
+## Solution
 
 Some basic module division for any number *n* (n % 2) can distinguish between odd and even numbers.
