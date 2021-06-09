@@ -1,11 +1,3 @@
-# Fantasy Draft
-
-**Problem**: [fantasydraft](https://open.kattis.com/problems/fantasydraft)
-
-**Difficulty**: 3.4
-
-## Solution
-
 This solution is not too difficult to understand the approach, but the implementation is a bit tricky.
 
 Since there are *n* teams, and *k* players per team, there are *n* \* *k* players to be assigned, which may be

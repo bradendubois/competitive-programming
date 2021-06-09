@@ -1,11 +1,3 @@
-# Primary Register
-
-**Problem**: [register](https://open.kattis.com/problems/register)
-
-**Difficulty**: 2.0
-
-## Solution
-
 Since one can consider the registers to be similar to numbers with different bases, it 
 can be difficult to find some way to sum them, or do something clever, so it's easiest
 to just add 1 to the set of registers, and handle the overflow, and keep doing this until

@@ -11,4 +11,4 @@ for directory in filter(lambda x: x.is_dir() and not x.name.startswith("."), p.i
     i = x.index("## Solution")
     new_value = x[i+2:]
     y = readme.open("w")
-    y.write(new_value)
+    y.write("\n".join(new_value))

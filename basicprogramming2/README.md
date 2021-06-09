@@ -1,11 +1,3 @@
-# Basic Programming 2
-
-**Problem**: [basicprogramming2](https://open.kattis.com/problems/basicprogramming2)
-
-**Difficulty**: 3.5
-
-## Solution
-
 Lots of little things; and doing them fast. For this, you may want the fastest data structures for each case, and handle each case separately.
 
 ### Case 1

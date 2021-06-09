@@ -1,5 +1,3 @@
-## Solution
-
 If this problem were looking to *maximize* the number of potential islands, this would be a pretty quick problem, of course; we can just consider each "group" of **L** tiles as its own island, and the clouds that are potentially obscuring a connection between islands can be disregarded. 
 
 We're looking to *minimize*, however, so we must find a way to connect all islands that are adjacent to a cloud as one single island.
