@@ -1,17 +1,19 @@
 from pathlib import Path
 
 p = Path(".")
-p.mkdir("wiki")
 
 wiki = p / "wiki"
+wiki.mkdir(mode=0o777, exist_ok=True)
 
 languages = []
 solutions = []
 
-for directory in filter(lambda x: x.is_dir() and not x.name.startswith("."), p.iterdir()):
+for directory in filter(lambda x: x.is_dir() and not x.name.startswith(".") and x != wiki, p.iterdir()):
 
     readme = directory / "README.md"
-    contents = readme.open("r").read().strip()
+    print(readme)
+    with readme.open("r") as f:
+        contents = f.read().strip()
 
     full_contents = f"\
         # {directory.name}\n\
@@ -21,5 +23,8 @@ for directory in filter(lambda x: x.is_dir() and not x.name.startswith("."), p.i
         {contents}\
         "
 
-    page = (wiki / directory.name).open("w")
-    page.write(full_contents)
+    page = (wiki / (directory.name + ".md"))
+    page.touch(0o777)
+
+    print(page.resolve(), page.owner())
+    page.write_text(full_contents)
