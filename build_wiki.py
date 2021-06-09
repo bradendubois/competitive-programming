@@ -18,7 +18,7 @@ for directory in problems:
         contents = f.read().strip()
 
     data = parse_soup(get_soup(directory.name))
-    data['name'] = directory.name
+    data['id'] = directory.name
 
     all_data.append(data)
 
