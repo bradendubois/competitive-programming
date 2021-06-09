@@ -53,6 +53,6 @@ with home.open("w") as f:
     f.write("| Name | ID | Difficulty | CPU Time | Memory Limit | Solution |\n")
     f.write("| :-: | :-: | :-: | :-: | :-: | :-: |\n")
     for entry in all_data:
-        solution = base + "/{}/{}/{}".format(entry['id'], entry['id'], entry['solution'])
+        solution = base + "/{}/{}.{}".format(entry['id'], entry['id'], entry['solution'])
         link = '[{}](https://open.kattis.com/problems/{})'.format(entry['title'], entry['id'])
-        f.write("| {} | {} | {} | {} | {} | {} |\n".format(link, entry['id'], entry['difficulty'], entry['cpu'], entry['memory'], solution))
+        f.write("| {} | {} | {} | {} | {} | [{}]({}) |\n".format(link, entry['id'], entry['difficulty'], entry['cpu'], entry['memory'], solution, entry['solution']))
