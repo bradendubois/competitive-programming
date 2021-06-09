@@ -3,9 +3,6 @@ name: Deploy Wiki
 on:
   workflow_dispatch:
   push:
-    # Trigger only when wiki directory changes
-    paths:
-      - 'wiki/pages/**'
 
 jobs:
   deploy-wiki:
