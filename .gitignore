@@ -2,4 +2,4 @@
 .vscode/
 **/sample**
 wiki/**
-
+*.DS_Store*
